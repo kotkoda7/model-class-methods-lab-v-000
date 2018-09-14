@@ -3,12 +3,12 @@ class Captain < ActiveRecord::Base
   
   def self.catamaran_operators
     #returns all captains of catamarans
-    includes(boats::classifications).where(classifications: {name: "Catamaran"})
+    includes(boats: :classifications).where(classifications: {name: "Catamaran"})
   end
   
   def self.sailors
     #returns captains with sailboats
-    includes(boats::classifications).where(classifications: {name: "Sailboat"})
+    includes(boats: :classifications).where(classifications: {name: "Sailboat"})
   end
   
   def self.talented_seafarers
