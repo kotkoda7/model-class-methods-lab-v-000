@@ -9,4 +9,8 @@ class Captain < ActiveRecord::Base
   def self.sailors
     #returns captains withsailboats
   end
+  
+  def self.talented_seafarers
+    #
+end
 end
