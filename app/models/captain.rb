@@ -3,7 +3,7 @@ class Captain < ActiveRecord::Base
   
   def self.catamaran_operators
     #returns all captains of catamarans
-  
+    
   end
   
   def self.sailors
