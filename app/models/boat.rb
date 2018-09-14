@@ -26,7 +26,7 @@ end
 
 def self.sailboats
   #Returns all boats that are sailboats
-  incluses(classification:)
+  includes(:classifications).where
   
 end
 
