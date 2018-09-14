@@ -16,3 +16,6 @@ def self.ship
   Boat.where("length >= ?", 20)
 end
 
+def self.last_three_alphabetically
+  
+end
