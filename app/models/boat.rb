@@ -31,6 +31,6 @@ end
 
 def self.with_three_classifications
   #returns boats with three classifications
-  
+  Boat.joins(:classifications).group("boat_id").having("count(classification_id) = 3")
 end
 end
