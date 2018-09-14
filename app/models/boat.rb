@@ -21,7 +21,7 @@ def self.last_three_alphabetically
 end
 
 def self.without_a_captain
-  
+  where(captain: nil)
 end
 
 def self.sailboats
