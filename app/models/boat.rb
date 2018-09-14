@@ -26,6 +26,7 @@ def self.sailboats
 end
 
 def self.with_three_classifications
-
+  #returns boats with three classifications
+  
 end
 end
