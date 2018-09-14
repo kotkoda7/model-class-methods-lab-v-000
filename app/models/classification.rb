@@ -4,7 +4,9 @@ class Classification < ActiveRecord::Base
   
   
   def self.my_all
-    #
+    #returns all classifications
     
   end
+  
+  def self.longest
 end
