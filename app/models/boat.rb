@@ -8,4 +8,6 @@ def self.first_five
   Boat.limit(5)
 end
 
-
+def self.dinghy
+  
+end
