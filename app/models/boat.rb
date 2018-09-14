@@ -26,7 +26,7 @@ end
 
 def self.sailboats
   #Returns all boats that are sailboats
-  Classification.find_by(name: "Sailboat")
+  where(classification: "Sailboat")
   
 end
 
