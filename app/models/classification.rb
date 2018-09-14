@@ -10,5 +10,6 @@ class Classification < ActiveRecord::Base
   
   def self.longest
     #returns the classifications for the longest boat
+    
   end
 end
