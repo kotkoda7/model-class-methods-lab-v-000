@@ -22,7 +22,8 @@ end
 
 def self.sailboats
   #Returns all boats that are sailboats
-  Classification.find_by(name: )
+  Classification.find_by(name: "Sailboat")
+  
 end
 
 def self.with_three_classifications
