@@ -22,6 +22,6 @@ end
 
   def self.non_sailors
     #returns people who are not captains of sailboats
-    
+    where.not("id IN (?)", self.sailors.pluck(:id))
 end
 end
