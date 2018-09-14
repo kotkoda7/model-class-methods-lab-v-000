@@ -9,5 +9,5 @@ def self.first_five
 end
 
 def self.dinghy
-  
+  Boat.where
 end
