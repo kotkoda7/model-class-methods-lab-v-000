@@ -7,7 +7,7 @@ class Captain < ActiveRecord::Base
   end
   
   def self.sailors
-    #returns captains withs ailboats
+    #returns captains with sailboats
     includes(:classifications).where(classifications: {name: "Sailboat"})
   end
   
