@@ -11,6 +11,9 @@ class Captain < ActiveRecord::Base
     includes(boats: :classifications).where(classifications: { name: 'Sailboat' }).uniq
   end
   
+  def self.motorboat_operators
+  end
+  
   def self.talented_seafarers
     #returns captains of motorboats and sailboats
     
