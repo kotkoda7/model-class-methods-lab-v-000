@@ -20,4 +20,7 @@ def self.last_three_alphabetically
   Boat.order("name DESC").limit(3)
 end
 
+def self.sailboats
+end
+
 end
