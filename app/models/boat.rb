@@ -21,6 +21,8 @@ def self.last_three_alphabetically
 end
 
 def self.sailboats
+  #Returns all boats that are sailboats
+  
 end
 
 end
