@@ -17,7 +17,7 @@ def self.ship
 end
 
 def self.last_three_alphabetically
-  Boat.order("name DESC"), limit(3)
+  Boat.order("name DESC"),limit(3)
 end
 
 end
